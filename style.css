@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    background-color: white;
+    /* display: flex; */
+    
+}
+.nav{
+    display: flex;
+    background-color: #161719;
+    
+
+}
+h1{
+    margin-top: -53px;
+    margin-left: 55px;
+    margin-left:271px ;
+    color: burlywood;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.icons{
+    display: flex;
+    flex: auto;
+    justify-content: end;
+    margin-right: 200px;
+    margin-top: 30px;
+    
+}
+.icons li img{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+
+}
+.main{
+    background-color: #111215;
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    color: aliceblue;
+    margin-left: 200px;
+    font-size: 50px;
+    margin-top: 90px;
+}
+.subtext {
+    color: aliceblue;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.signupbtn{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#3882F6;
+    font-size:20px ;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-left: 200px;
+    border: #3882F6;
+    cursor: pointer;
+    /* border: 1px solid white; */
+}
+.bigimg img{
+    margin: -200px 50px 60px 850px;
+    height: auto;
+    width: 500px;
+    border-radius: 20px;
+    border: 10px solid burlywood;
+}
+
+.cardContainer{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* margin: 200px; */
+    margin: 100px 200px ;
+    
+    
+}
+.cardHeading{
+    margin-top: 100px;
+    margin-left: 610px;
+    color: black;
+
+}
+
+.card{
+    height: 260px;
+    width: 206px;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+    
+    
+}
+.square{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 121, 186);
+    border-radius: 10%;
+    
+}
+.card p{
+    font-size: 17px;
+    margin-left: 30px;
+}
+.quatation{
+    background-color: #e5e7eb;
+    margin-top: 30px;
+    padding: 150px 50px;
+}
+.boldtext{
+    font-size: 40px;
+    margin-left: 200px;
+}
+.writer{
+    font-size: 25px;
+    margin-left: 1000px;
+    margin-top: -20px;
+}
+.actionbox{
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 3em;
+    width: 60%;
+    margin: 50px;
+    margin-left: 265px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
+}
+.call{
+    font-size: 25px;
+    margin-bottom: 8spx;
+    padding-left: 40px;
+}
+.lightText{
+    font-size: 20px;
+    padding-left: 40px;
+    
+}
+.signupbtn2{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#3882f6;
+    font-size:20px ;
+    color: aliceblue;
+    margin-top: -39px;
+    margin-left: 671px;
+    border:1px solid #fefefe;
+    cursor: pointer;
+}
+.copyright{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px;
+}
+.copyright p{
+    margin-left: 600px;
+}
+button:hover{
+    scale: 1.2;
+}
